@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/pricing.css" />
+    <link rel="stylesheet" href="./styles/components/features.css" />
+    <link rel="stylesheet" href="./styles/components/contact.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+
+    <title>Dev server</title>
+  </head>
+  <body>
+    <script type="module" src="./src/main.js"></script>
+    <header class="header container">
+      <h2 class="header__title">IVRC</h2>
+      <nav class="header__menu">
+        <a href="#pricing" class="header__link">Services</a>
+        <a href="#features" class="header__link">Fonctionnalités</a>
+        <a href="#contact" class="header__link">Contact</a>
+        <span class="vr"></span>
+      </nav>
+      <div class="header__btn-container">
+        <button class="header__btn btn">Se connecter</button>
+        <button class="header__btn btn">S'inscrire</button>
+      </div>
+      <button class="header__bars">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </button>
+    </header>
+    <main>
+      <section class="hero container section text-center">
+        <h1 class="hero__title">Nous trouvons toujours un sens.</h1>
+        <p class="hero__description">
+          Inversance, votre partenaire pour des solutions graphiques <br />
+          et stratégiques de qualité supérieure.
+        </p>
+        <button class="hero__btn btn">
+          <a href="#features">En savoir plus</a>
+        </button>
+      </section>
+      <section id="pricing" class="pricing container section text-center">
+        <h2 class="pricing__title">Nos prestations</h2>
+        <div class="pricing__box-container flex-center">
+          <div class="pricing__box">
+            <h3 class="pricing__price">10€</h3>
+            <h4 class="pricing__type">Starter</h4>
+            <p class="pricing__description">
+              Parfait pour les entreprises en démarrage qui recherchent une
+              identité visuelle solide et une communication impactante.
+            </p>
+            <div class="pricing__list-container">
+              <ul class="pricing__list">
+                <li class="pricing__list-items">
+                  Création de logo et charte graphique
+                </li>
+                <li class="pricing__list-items">
+                  Stratégies de communication en ligne
+                </li>
+                <li class="pricing__list-items">
+                  Conception de site web intuitif
+                </li>
+                <li class="pricing__list-items">Support réactif 24/7</li>
+              </ul>
+            </div>
+            <button class="pricing__btn">
+              <a href="#features">Découvrir</a>
+            </button>
+          </div>
+          <div class="pricing__box">
+            <h3 class="pricing__price">15€</h3>
+            <h4 class="pricing__type">Medium</h4>
+            <p class="pricing__description">
+              Parfait pour les entreprises en croissance cherchant à renforcer
+              leur présence en ligne et à innover.
+            </p>
+
+            <div class="pricing__list-container">
+              <ul class="pricing__list">
+                <li class="pricing__list-items">
+                  Création de logo et charte graphique
+                </li>
+                <li class="pricing__list-items">
+                  Stratégies de communication en ligne
+                </li>
+                <li class="pricing__list-items">
+                  Conception de site web intuitif
+                </li>
+                <li class="pricing__list-items">Support réactif 24/7</li>
+              </ul>
+            </div>
+            <button class="pricing__btn">
+              <a href="#features">Découvrir</a>
+            </button>
+          </div>
+          <div class="pricing__box">
+            <h3 class="pricing__price">20€</h3>
+            <h4 class="pricing__type">Premium</h4>
+            <p class="pricing__description">
+              Pour les entreprises ambitieuses cherchant à transformer leur
+              présence en ligne et à établir des collaborations transparentes.
+            </p>
+
+            <div class="pricing__list-container">
+              <ul class="pricing__list">
+                <li class="pricing__list-items">
+                  Création de logo et charte graphique
+                </li>
+                <li class="pricing__list-items">
+                  Stratégies de communication en ligne
+                </li>
+                <li class="pricing__list-items">
+                  Conception de site web intuitif
+                </li>
+                <li class="pricing__list-items">Support réactif 24/7</li>
+              </ul>
+            </div>
+            <button class="pricing__btn">
+              <a href="#features">Découvrir</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- <section id="features" class="features container section text-center">
+        <h2 class="features__title">Tout ce dont vous avez besoin.</h2>
+        <p class="features__description">
+          Un texte qui décrit les fonctionnalités.
+        </p>
+        <div class="features__box-container flex-center">
+          <div class="features__box">
+            <h3 class="features__box-title">Identité Visuelle Solide</h3>
+            <p class="features__box-description">
+              Créez une empreinte visuelle distinctive qui reflète l'essence de
+              votre marque.
+            </p>
+          </div>
+          <div class="features__box">
+            <h3 class="features__box-title">Communication Impactante</h3>
+            <p class="features__box-description">
+              Établissez des connexions durables grâce à des stratégies de
+              communication percutantes.
+            </p>
+          </div>
+          <div class="features__box">
+            <h3 class="features__box-title">Design Web Intuitif</h3>
+            <p class="features__box-description">
+              Concevez des sites web conviviaux et engageants pour une
+              expérience en ligne exceptionnelle.
+            </p>
+          </div>
+          <div class="features__box">
+            <h3 class="features__box-title">Campagnes Créatives</h3>
+            <p class="features__box-description">
+              Libérez votre potentiel avec des campagnes publicitaires
+              innovantes qui captivent votre audience.
+            </p>
+          </div>
+          <div class="features__box">
+            <h3 class="features__box-title">Résultats Mesurables</h3>
+            <p class="features__box-description">
+              Obtenez des résultats tangibles et mesurables grâce à nos
+              stratégies éprouvées.
+            </p>
+          </div>
+        </div>
+      </section> -->
+      <section id="contact" class="contact container section text-center">
+        <h2 class="contact__title">Nous contacter</h2>
+        <p class="contact__description">
+          Agence de graphisme et de communication fondée par deux jeunes
+          passionnés de la créativité et de l'innovation. Notre objectif est
+          d'aider les entreprises à se démarquer en leur offrant des solutions
+          visuelles et stratégiques de haute qualité.
+        </p>
+        <button class="contact__btn btn">
+          <a
+            href="mailto:zosted62400@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Contactez-nous</a
+          >
+        </button>
+      </section>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__title section text-center">Inversance</h2>
+    </footer>
+  </body>
+</html>

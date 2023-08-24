@@ -1,0 +1,81 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.pricing__box-container {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pricing__box {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  height: 25rem;
+}
+
+.pricing__price {
+  font-size: var(--size-3xl);
+}
+
+.pricing__type {
+  font-size: var(--size-xl);
+}
+
+.pricing__description {
+  font-size: var(--size-base);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pricing__list {
+  text-align: left;
+}
+
+.pricing__list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing__btn {
+  font-size: var(--size-lg);
+  font-weight: 700;
+  width: 100%;
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
