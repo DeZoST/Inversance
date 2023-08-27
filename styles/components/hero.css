@@ -1,13 +1,9 @@
 /* Hero */
 
 .hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
   text-align: center;
+  padding: 2rem;
+  margin-top: 10rem;
 }
 
 .hero__title {
@@ -22,12 +18,14 @@
 .hero__description {
   font-size: var(--size-xs);
   max-width: 49ch;
+  margin-top: 0.5rem;
   margin-right: auto;
   margin-left: auto;
   line-height: 1.5;
 }
 
 .hero__btn {
+  margin-top: 2rem;
   font-size: var(--size-xs);
 }
 
