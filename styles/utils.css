@@ -49,10 +49,6 @@
   align-items: center;
 }
 
-.section {
-  margin-top: 5rem;
-}
-
 /* xs */
 @media (min-width: 475px) {
   .container {
@@ -79,10 +75,6 @@
   .container {
     max-width: 1024px;
   }
-
-  .section {
-    margin-top: 10rem;
-  }
 }
 
 /* xl */
@@ -90,19 +82,11 @@
   .container {
     max-width: 1280px;
   }
-
-  .section {
-    margin-top: 10rem;
-  }
 }
 
 /* 2xl */
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
-  }
-
-  .section {
-    margin-top: 10rem;
   }
 }
